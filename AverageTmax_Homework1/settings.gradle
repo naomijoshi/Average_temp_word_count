@@ -1,0 +1,12 @@
+rootProject.name = 'com.homework1'
+include 'Sequential'
+findProject(':Sequential')?.name = 'com.sequential'
+include 'NoLock'
+findProject(':NoLock')?.name = 'com.noLock'
+include 'CoarseLock'
+findProject(':CoarseLock')?.name = 'com.CoarseLock'
+include 'FineLock'
+findProject(':FineLock')?.name = 'com.FineLock'
+include 'NoSharing'
+findProject(':NoSharing')?.name = 'com.NoSharing'
+
