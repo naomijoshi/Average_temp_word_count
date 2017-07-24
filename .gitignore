@@ -4,6 +4,7 @@
 /*/build/
 /*/.gradle
 /*/.idea
+/*/.dropbox
 /*/.DS_Store
 
 # Ignore Gradle GUI config
